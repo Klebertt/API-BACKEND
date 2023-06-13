@@ -19,9 +19,9 @@ CREATE TABLE alugueis (
 );
 
 
-INSERT INTO aluno VALUES
-(default, 'Bruno Pereira', '20986465fdf', '1986-10-20', 0),
-(default, 'Thiago Pereira', '20446465fdf', '1686-06-20', 0),
-(default, 'Natalina Pereira', '20046465fdf', '1986-06-18', 0),
-(default, 'Alessandra Pereira', '20226465fdf', '1986-06-20', 0);
+INSERT INTO carros (marca, modelo, ano, cor, preço)
+VALUES ('Chevrolet', 'Onix', '2020-01-01', 'Prata', 50000),
+       ('Ford', 'Mustang', '2019-06-15', 'Vermelho', 80000),
+       ('Volkswagen', 'Golf', '2021-03-10', 'Preto', 60000),
+       ('Toyota', 'Corolla', '2022-02-20', 'Branco', 70000);
 
